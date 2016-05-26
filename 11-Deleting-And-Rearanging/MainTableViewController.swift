@@ -16,6 +16,8 @@ class MainTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        navigationItem.title = "Groceries"
+
         navigationItem.leftBarButtonItem = editButtonItem()
         let item = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: nil)
         navigationItem.rightBarButtonItem = item

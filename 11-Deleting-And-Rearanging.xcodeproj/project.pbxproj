@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0419AA401CF757E6004258E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419AA3F1CF757E6004258E2 /* AppDelegate.swift */; };
+		0419AA451CF757E6004258E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0419AA431CF757E6004258E2 /* Main.storyboard */; };
+		0419AA471CF757E6004258E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0419AA461CF757E6004258E2 /* Assets.xcassets */; };
+		0419AA4A1CF757E6004258E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0419AA481CF757E6004258E2 /* LaunchScreen.storyboard */; };
+		0419AA551CF757E6004258E2 /* _1_Deleting_And_RearangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419AA541CF757E6004258E2 /* _1_Deleting_And_RearangingTests.swift */; };
+		0419AA601CF757E6004258E2 /* _1_Deleting_And_RearangingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419AA5F1CF757E6004258E2 /* _1_Deleting_And_RearangingUITests.swift */; };
+		0419AA6E1CF758CF004258E2 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419AA6D1CF758CF004258E2 /* MainTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0419AA511CF757E6004258E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0419AA341CF757E6004258E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0419AA3B1CF757E6004258E2;
+			remoteInfo = "11-Deleting-And-Rearanging";
+		};
+		0419AA5C1CF757E6004258E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0419AA341CF757E6004258E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0419AA3B1CF757E6004258E2;
+			remoteInfo = "11-Deleting-And-Rearanging";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0419AA3C1CF757E6004258E2 /* 11-Deleting-And-Rearanging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "11-Deleting-And-Rearanging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0419AA3F1CF757E6004258E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0419AA441CF757E6004258E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0419AA461CF757E6004258E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0419AA491CF757E6004258E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0419AA4B1CF757E6004258E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0419AA501CF757E6004258E2 /* 11-Deleting-And-RearangingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "11-Deleting-And-RearangingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0419AA541CF757E6004258E2 /* _1_Deleting_And_RearangingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_Deleting_And_RearangingTests.swift; sourceTree = "<group>"; };
+		0419AA561CF757E6004258E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0419AA5B1CF757E6004258E2 /* 11-Deleting-And-RearangingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "11-Deleting-And-RearangingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0419AA5F1CF757E6004258E2 /* _1_Deleting_And_RearangingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_Deleting_And_RearangingUITests.swift; sourceTree = "<group>"; };
+		0419AA611CF757E6004258E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0419AA6D1CF758CF004258E2 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0419AA391CF757E6004258E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AA4D1CF757E6004258E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AA581CF757E6004258E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0419AA331CF757E6004258E2 = {
+			isa = PBXGroup;
+			children = (
+				0419AA3E1CF757E6004258E2 /* 11-Deleting-And-Rearanging */,
+				0419AA531CF757E6004258E2 /* 11-Deleting-And-RearangingTests */,
+				0419AA5E1CF757E6004258E2 /* 11-Deleting-And-RearangingUITests */,
+				0419AA3D1CF757E6004258E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0419AA3D1CF757E6004258E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0419AA3C1CF757E6004258E2 /* 11-Deleting-And-Rearanging.app */,
+				0419AA501CF757E6004258E2 /* 11-Deleting-And-RearangingTests.xctest */,
+				0419AA5B1CF757E6004258E2 /* 11-Deleting-And-RearangingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0419AA3E1CF757E6004258E2 /* 11-Deleting-And-Rearanging */ = {
+			isa = PBXGroup;
+			children = (
+				0419AA3F1CF757E6004258E2 /* AppDelegate.swift */,
+				0419AA431CF757E6004258E2 /* Main.storyboard */,
+				0419AA461CF757E6004258E2 /* Assets.xcassets */,
+				0419AA481CF757E6004258E2 /* LaunchScreen.storyboard */,
+				0419AA4B1CF757E6004258E2 /* Info.plist */,
+				0419AA6D1CF758CF004258E2 /* MainTableViewController.swift */,
+			);
+			path = "11-Deleting-And-Rearanging";
+			sourceTree = "<group>";
+		};
+		0419AA531CF757E6004258E2 /* 11-Deleting-And-RearangingTests */ = {
+			isa = PBXGroup;
+			children = (
+				0419AA541CF757E6004258E2 /* _1_Deleting_And_RearangingTests.swift */,
+				0419AA561CF757E6004258E2 /* Info.plist */,
+			);
+			path = "11-Deleting-And-RearangingTests";
+			sourceTree = "<group>";
+		};
+		0419AA5E1CF757E6004258E2 /* 11-Deleting-And-RearangingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0419AA5F1CF757E6004258E2 /* _1_Deleting_And_RearangingUITests.swift */,
+				0419AA611CF757E6004258E2 /* Info.plist */,
+			);
+			path = "11-Deleting-And-RearangingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0419AA3B1CF757E6004258E2 /* 11-Deleting-And-Rearanging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0419AA641CF757E6004258E2 /* Build configuration list for PBXNativeTarget "11-Deleting-And-Rearanging" */;
+			buildPhases = (
+				0419AA381CF757E6004258E2 /* Sources */,
+				0419AA391CF757E6004258E2 /* Frameworks */,
+				0419AA3A1CF757E6004258E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11-Deleting-And-Rearanging";
+			productName = "11-Deleting-And-Rearanging";
+			productReference = 0419AA3C1CF757E6004258E2 /* 11-Deleting-And-Rearanging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0419AA4F1CF757E6004258E2 /* 11-Deleting-And-RearangingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0419AA671CF757E6004258E2 /* Build configuration list for PBXNativeTarget "11-Deleting-And-RearangingTests" */;
+			buildPhases = (
+				0419AA4C1CF757E6004258E2 /* Sources */,
+				0419AA4D1CF757E6004258E2 /* Frameworks */,
+				0419AA4E1CF757E6004258E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0419AA521CF757E6004258E2 /* PBXTargetDependency */,
+			);
+			name = "11-Deleting-And-RearangingTests";
+			productName = "11-Deleting-And-RearangingTests";
+			productReference = 0419AA501CF757E6004258E2 /* 11-Deleting-And-RearangingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0419AA5A1CF757E6004258E2 /* 11-Deleting-And-RearangingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0419AA6A1CF757E6004258E2 /* Build configuration list for PBXNativeTarget "11-Deleting-And-RearangingUITests" */;
+			buildPhases = (
+				0419AA571CF757E6004258E2 /* Sources */,
+				0419AA581CF757E6004258E2 /* Frameworks */,
+				0419AA591CF757E6004258E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0419AA5D1CF757E6004258E2 /* PBXTargetDependency */,
+			);
+			name = "11-Deleting-And-RearangingUITests";
+			productName = "11-Deleting-And-RearangingUITests";
+			productReference = 0419AA5B1CF757E6004258E2 /* 11-Deleting-And-RearangingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0419AA341CF757E6004258E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = justForFun;
+				TargetAttributes = {
+					0419AA3B1CF757E6004258E2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					0419AA4F1CF757E6004258E2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0419AA3B1CF757E6004258E2;
+					};
+					0419AA5A1CF757E6004258E2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0419AA3B1CF757E6004258E2;
+					};
+				};
+			};
+			buildConfigurationList = 0419AA371CF757E6004258E2 /* Build configuration list for PBXProject "11-Deleting-And-Rearanging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0419AA331CF757E6004258E2;
+			productRefGroup = 0419AA3D1CF757E6004258E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0419AA3B1CF757E6004258E2 /* 11-Deleting-And-Rearanging */,
+				0419AA4F1CF757E6004258E2 /* 11-Deleting-And-RearangingTests */,
+				0419AA5A1CF757E6004258E2 /* 11-Deleting-And-RearangingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0419AA3A1CF757E6004258E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0419AA4A1CF757E6004258E2 /* LaunchScreen.storyboard in Resources */,
+				0419AA471CF757E6004258E2 /* Assets.xcassets in Resources */,
+				0419AA451CF757E6004258E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AA4E1CF757E6004258E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AA591CF757E6004258E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0419AA381CF757E6004258E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0419AA6E1CF758CF004258E2 /* MainTableViewController.swift in Sources */,
+				0419AA401CF757E6004258E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AA4C1CF757E6004258E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0419AA551CF757E6004258E2 /* _1_Deleting_And_RearangingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AA571CF757E6004258E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0419AA601CF757E6004258E2 /* _1_Deleting_And_RearangingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0419AA521CF757E6004258E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0419AA3B1CF757E6004258E2 /* 11-Deleting-And-Rearanging */;
+			targetProxy = 0419AA511CF757E6004258E2 /* PBXContainerItemProxy */;
+		};
+		0419AA5D1CF757E6004258E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0419AA3B1CF757E6004258E2 /* 11-Deleting-And-Rearanging */;
+			targetProxy = 0419AA5C1CF757E6004258E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0419AA431CF757E6004258E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0419AA441CF757E6004258E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0419AA481CF757E6004258E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0419AA491CF757E6004258E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0419AA621CF757E6004258E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0419AA631CF757E6004258E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0419AA651CF757E6004258E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "11-Deleting-And-Rearanging/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justforfun.-1-Deleting-And-Rearanging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0419AA661CF757E6004258E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "11-Deleting-And-Rearanging/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justforfun.-1-Deleting-And-Rearanging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0419AA681CF757E6004258E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "11-Deleting-And-RearangingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justforfun.-1-Deleting-And-RearangingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/11-Deleting-And-Rearanging.app/11-Deleting-And-Rearanging";
+			};
+			name = Debug;
+		};
+		0419AA691CF757E6004258E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "11-Deleting-And-RearangingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justforfun.-1-Deleting-And-RearangingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/11-Deleting-And-Rearanging.app/11-Deleting-And-Rearanging";
+			};
+			name = Release;
+		};
+		0419AA6B1CF757E6004258E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "11-Deleting-And-RearangingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justforfun.-1-Deleting-And-RearangingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "11-Deleting-And-Rearanging";
+			};
+			name = Debug;
+		};
+		0419AA6C1CF757E6004258E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "11-Deleting-And-RearangingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justforfun.-1-Deleting-And-RearangingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "11-Deleting-And-Rearanging";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0419AA371CF757E6004258E2 /* Build configuration list for PBXProject "11-Deleting-And-Rearanging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419AA621CF757E6004258E2 /* Debug */,
+				0419AA631CF757E6004258E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0419AA641CF757E6004258E2 /* Build configuration list for PBXNativeTarget "11-Deleting-And-Rearanging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419AA651CF757E6004258E2 /* Debug */,
+				0419AA661CF757E6004258E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0419AA671CF757E6004258E2 /* Build configuration list for PBXNativeTarget "11-Deleting-And-RearangingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419AA681CF757E6004258E2 /* Debug */,
+				0419AA691CF757E6004258E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0419AA6A1CF757E6004258E2 /* Build configuration list for PBXNativeTarget "11-Deleting-And-RearangingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419AA6B1CF757E6004258E2 /* Debug */,
+				0419AA6C1CF757E6004258E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0419AA341CF757E6004258E2 /* Project object */;
+}
